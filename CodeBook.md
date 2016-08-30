@@ -1,6 +1,6 @@
 # Code Book
 
-This code book summarizes the data fields in `tidy.txt`.
+This code book describes the variables, the data, and any transformations or work that was performed to clean up the data called  `tidy.txt`
 
 ## Identifiers
 
@@ -97,3 +97,14 @@ This code book summarizes the data fields in `tidy.txt`.
 * `SITTING` (value `4`): subject was sitting during the test
 * `STANDING` (value `5`): subject was standing during the test
 * `LAYING` (value `6`): subject was laying down during the test
+
+## Steps
+
+* Download and unzip the dataset
+* Load activity labels + features
+* Extract only the data on mean and standard deviation
+* Load the datasets
+* Merge datasets and add labels
+* Turn activities & subjects into factors
+* Create clean data set file
+
