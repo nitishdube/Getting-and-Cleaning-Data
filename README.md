@@ -15,3 +15,10 @@ The R script, `run_analysis.R`, does the following:
    variable for each subject and activity pair.
 
 The end result is stored in the file `tidy.txt`.
+
+## Dependencies
+* run_analysis.R file will help you to install the dependencies automatically. It depends on reshape
+
+## Steps to Run the script:
+* Download the data source and put into a folder in your working directory. You'll have a UCI HAR Dataset folder.
+* Run source("run_analysis.R"), then it will generate a new file tiny_data.txt in your working directory.
